@@ -3,3 +3,31 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #131313;
+}
+
+/* header {
+    height: 100vh;
+} */
+
+/* li, a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+li::after {
+    display: block;
+    content: '';
+    visibility: hidden;
+    border: 0.5px solid orangered;
+}
+
+li:hover::after {
+    transform: scaleX(0);
+    visibility: visible;
+    animation: underline .3s linear;
+    animation-fill-mode: both;
+} */

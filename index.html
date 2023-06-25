@@ -9,17 +9,84 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- LINK CSS -->
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- TITLE -->
     <title>Portafolio - Franco Javier Nieva</title>
 </head>
 <body>
-    <header></header>
-    <main></main>
+    <header>
+        <!-- Navbar -->
+        <section class="">
+            <div class="" data-aos="fade-right">
+                <h1>¡Hola!</h1>
+                <h2>Soy Franco Javier Nieva</h2>
+                <p class="mb-0">Estudiante Universitario</p>
+                <p>Estudiante Full Stack Developer</p>
+                <figure class="">
+                    <a href="https://github.com/francojnieva" target="_blank" title="Github"><img class="logo-github" src="./img/icon-github.png" alt="logo de github" ></a>
+                    <a href="https://www.linkedin.com/in/franco-javier-nieva" target="_blank" title="LinkedIn"><img src="./img/3225190_app_linkedin_logo_media_popular_icon.png" alt="logo de linkedin"></a>
+                    <a href="https://www.instagram.com/franconieva.97" target="_blank" title="Instagram"><img src="./img/instagram.png" alt="logo de instagram"></a>
+                    <a href="mailto:franco97nieva@gmail.com" target="_blank" title="Gmail"><img src="./img/2400853_gmail_google_ico_media_photo add_icon.png" alt="logo de correo gmail"></a>
+                </figure>
+            </div>
+            <div class="" data-aos="fade-left">
+                <img src="" alt="Foto de perfil de Franco Nieva"
+                title="Nieva Franco Javier">
+            </div>
+        </section>
+    </header>
+    <main>
+        <section>
+            <h2>Sobre mi</h2>
+            <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatibus eveniet consequatur tempora excepturi in ea, ut quaerat quas nulla corrupti iste quam sunt fugiat! Eveniet excepturi libero ut blanditiis?</article>
+        </section>
+        <section>
+            <h2>Habilidades/Conocimientos</h2>
+            <article>
+                <!-- cards con los iconos -->
+            </article>
+        </section>
+        <section>
+            <h2>Formación</h2>
+            <article>
+                
+            </article>
+        </section>
+        <section>
+            <h2>Proyectos</h2>
+            <article>
+                <!-- Acá se renderizan las card con los proyectos -->
+            </article>
+        </section>
+        <section>
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <p>¿Quieres contactarme?. Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. Muchas gracias.</p>
+                <label for="name"></label>
+                <input type="text" name="name" id="name" placeholder="Nombre" required autocomplete="off">
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Dirección de correo electrónico" required autocomplete="off">
+                <label for=""></label>
+                <input type="text" name="" id="" placeholder="Asunto" required autocomplete="off">
+                <label for="message"></label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Deja tu mensaje aquí..." required autocomplete="off"></textarea>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+    </main>
     <footer class="text-center p-3">
         <small>Desarrollado por Franco Javier Nieva - 2023</small>
     </footer>
     <!--BOOTSTRAP  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <!-- JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000
+        });
+    </script>
 </body>
 </html>
