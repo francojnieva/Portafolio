@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #131313;
+    background-color: #111111;
 }
 
 /* header {
@@ -31,3 +31,89 @@ li:hover::after {
     animation: underline .3s linear;
     animation-fill-mode: both;
 } */
+
+h1, h2 {
+    font-family: 'DM Serif Display', serif;
+}
+
+.presentation-info .hello {
+    color: #fa5c01;
+}
+
+.presentation-info .my-name-title {
+    color: white;
+}
+
+.presentation-info p {
+    color: #808080;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.links-container img:hover {
+    transform: translateY(-.4rem);
+    transform: scale(1.4);
+}
+
+.presentation-photo img {
+    border-radius: 100%;
+}
+
+@media screen and (min-width: 320px) {
+    .presentation-info {
+        text-align: center;
+    }
+
+    .presentation-info .hello {
+        font-size: 3rem;
+    }
+
+    .presentation-info .my-name-title {
+        font-size: 2.8rem;
+    }
+
+    .presentation-info p {
+        font-size: 1.1rem;
+    }
+
+    .links-container img {
+        width: 1.8rem;
+        margin-right: .5rem;
+        transition: .2s;
+    }
+
+    .presentation-photo img {
+        width: 11rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .presentation-info  {
+        text-align: start;
+    }
+
+    .presentation-info .hello {
+        font-size: 3.5rem;
+    }
+
+    .presentation-info .my-name-title {
+        font-size: 3.2rem;
+    }
+
+    .presentation-photo img {
+        width: 13rem;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .presentation-info .hello {
+        font-size: 4.2rem;
+    }
+
+    .presentation-info .my-name-title {
+        font-size: 3.8rem;
+    }
+
+    .presentation-photo img {
+        width: 17rem;
+    }
+}
