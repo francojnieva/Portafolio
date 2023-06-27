@@ -36,7 +36,7 @@ h1, h2 {
     font-family: 'DM Serif Display', serif;
 }
 
-.presentation-info .hello {
+.presentation-info .hello, .title-h2 {
     color: #fa5c01;
 }
 
@@ -44,7 +44,7 @@ h1, h2 {
     color: white;
 }
 
-.presentation-info p {
+.presentation-info p, .about-me-container {
     color: #808080;
     font-family: 'Open Sans', sans-serif;
 }
