@@ -60,7 +60,7 @@ h1, h2 {
 
 /* TECNOLOGÍAS */
 
-.card-technologies {
+.card-technologies, .card-project {
     background-color: #161616;
     border: none;
     border: .1rem solid rgb(51, 51, 51);
@@ -80,6 +80,18 @@ h1, h2 {
 .card-training {
     background: none;
     border: none;
+}
+
+/* PROYECTOS */
+
+.btn {
+    color: white;
+    border: .1rem solid #ff522fd3;
+    background: linear-gradient(to right, #ff522fd3, #f09619e5);
+}
+
+.btn:hover {
+    color: white;
 }
 
 @media screen and (min-width: 320px) {
@@ -143,6 +155,12 @@ h1, h2 {
 
     .presentation-photo img {
         width: 13rem;
+    }
+
+    /* PROYECTOS */
+
+    .card-project  {
+        width: 22rem;
     }
 }
 

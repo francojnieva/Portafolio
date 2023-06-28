@@ -29,7 +29,7 @@ training.forEach((training) => {
     trainingItem.className = "card card-training mb-4"
     trainingItem.innerHTML = `
     <img src="${training.img}" class="card-img-top" alt="${training.alt}">
-    <div class="card-body text-white">
+    <div class="card-body text-white-50">
         <p class="card-text text-center m-0">${training.study}</p>
         <p class="card-text text-center">${training.period}</p>
     </div>
