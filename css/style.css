@@ -58,23 +58,29 @@ h1, h2 {
     border-radius: 100%;
 }
 
-/* FORMACION */
+/* TECNOLOGÍAS */
 
-.card-training {
-    background-color: #131313;
+.card-technologies {
+    background-color: #161616;
     border: none;
-    border: .1rem solid rgb(34, 34, 34);
+    border: .1rem solid rgb(51, 51, 51);
     transition: .3s;
 }
 
-.card-training:hover {
+.card-technologies:hover {
     border: .1rem solid white;
 }
 
-.card-training img {
-    border-radius: 0;
+.card-technologies img, .card-training img {
+    border-radius: .5rem;
 }
 
+/* FORMACIÓN  */
+
+.card-training {
+    background: none;
+    border: none;
+}
 
 @media screen and (min-width: 320px) {
     .presentation-info {
@@ -103,15 +109,22 @@ h1, h2 {
         width: 11rem;
     }
 
-    /* FORMACIÓN */
+    /* TECNOLOGÍAS */
 
-    .card-training {
+    .card-technologies {
         width: 10rem;
     }
     
-    .card-training img {
+    .card-technologies img {
         width: 6rem;
         margin: 0 auto;
+    }
+
+    /* FORMACIÓN */
+
+    .card-training  {
+       width: 12rem;
+       margin:  0 auto;
     }
 }
 
@@ -148,7 +161,7 @@ h1, h2 {
 
     /* FORMACIÓN */
     
-    .card-training {
+    .card-technologies {
         width: 12rem;
     }
 }
