@@ -75,13 +75,6 @@ h1, h2 {
     border-radius: .5rem;
 }
 
-/* FORMACIÓN  */
-
-.card-training {
-    background: none;
-    border: none;
-}
-
 /* PROYECTOS */
 
 .btn {
@@ -131,13 +124,6 @@ h1, h2 {
         width: 6rem;
         margin: 0 auto;
     }
-
-    /* FORMACIÓN */
-
-    .card-training  {
-       width: 12rem;
-       margin:  0 auto;
-    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -175,11 +161,5 @@ h1, h2 {
 
     .presentation-photo img {
         width: 17rem;
-    }
-
-    /* FORMACIÓN */
-    
-    .card-technologies {
-        width: 12rem;
     }
 }
