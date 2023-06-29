@@ -31,6 +31,9 @@ li:hover::after {
     animation: underline .3s linear;
     animation-fill-mode: both;
 } */
+header {
+    height: 100vh;
+}
 
 h1, h2 {
     font-family: 'DM Serif Display', serif;
@@ -111,7 +114,7 @@ h1, h2 {
     }
 
     .presentation-photo img {
-        width: 11rem;
+        width: 12rem;
     }
 
     /* TECNOLOGÍAS */
@@ -126,21 +129,31 @@ h1, h2 {
     }
 }
 
-@media screen and (min-width: 1024px) {
-    .presentation-info  {
-        text-align: start;
-    }
-
+@media screen and (min-width: 768px) {
     .presentation-info .hello {
-        font-size: 3.5rem;
+        font-size: 3.8rem;
     }
 
     .presentation-info .my-name-title {
         font-size: 3.2rem;
     }
 
+    .presentation-info p {
+        font-size: 1.1rem;
+    }
+
     .presentation-photo img {
         width: 13rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .presentation-info  {
+        text-align: start;
+    }
+
+    .presentation-photo img {
+        width: 15rem;
     }
 
     /* PROYECTOS */
@@ -152,11 +165,11 @@ h1, h2 {
 
 @media screen and (min-width: 1300px) {
     .presentation-info .hello {
-        font-size: 4.2rem;
+        font-size: 4.1rem;
     }
 
     .presentation-info .my-name-title {
-        font-size: 3.8rem;
+        font-size: 3.6rem;
     }
 
     .presentation-photo img {

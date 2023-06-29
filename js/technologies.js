@@ -50,7 +50,7 @@ const technologies = [
 
 technologies.forEach((technologies) => {
     const technologiesItem = document.createElement("div")
-    technologiesItem.className= "card card-technologies pt-3 m-md-3"
+    technologiesItem.className= "card card-technologies pt-3 m-md-3 rounded-4"
     technologiesItem.innerHTML = `
         <img src="${technologies.img}" class="card-img-top" alt="${technologies.alt}">
         <div class="card-body text-white">
