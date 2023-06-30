@@ -8,33 +8,6 @@ body {
     background-color: #111111;
 }
 
-/* header {
-    height: 100vh;
-} */
-
-/* li, a {
-    list-style: none;
-    text-decoration: none;
-    color: white;
-}
-
-li::after {
-    display: block;
-    content: '';
-    visibility: hidden;
-    border: 0.5px solid orangered;
-}
-
-li:hover::after {
-    transform: scaleX(0);
-    visibility: visible;
-    animation: underline .3s linear;
-    animation-fill-mode: both;
-} */
-header {
-    height: 100vh;
-}
-
 h1, h2 {
     font-family: 'DM Serif Display', serif;
 }
@@ -91,6 +64,14 @@ h1, h2 {
 }
 
 @media screen and (min-width: 320px) {
+    .navbar-collapse {
+        background: linear-gradient(to top , #111111, #2e2e2ee0);
+    }
+
+    .nav-img {
+        width: 3rem;
+    }
+
     .presentation-info {
         text-align: center;
     }
@@ -148,6 +129,10 @@ h1, h2 {
 }
 
 @media screen and (min-width: 1024px) {
+    .navbar-collapse {
+        background: none;
+    }
+
     .presentation-info  {
         text-align: start;
     }

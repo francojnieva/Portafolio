@@ -53,8 +53,8 @@ projects.forEach((project) => {
         <div class="card-body">
             <h5 class="card-title text-start text-white-50">${project.title}:</h5>
             <p class="card-text text-start text-white-50">${project.description}.</p>
-            <a href="${project.repo}" target="_blank" class="btn me-1">Repositorio</a>
-            <a href="${project.deploy}" target="_blank" class="btn">Ver Proyecto</a>
+            <a href="${project.repo}" target="_blank" class="btn me-1"><i class="bi bi-github"></i> Repositorio</a>
+            <a href="${project.deploy}" target="_blank" class="btn"> <i class="bi bi-person-workspace"></i> Ver Proyecto</a>
         </div>
     `
     projectContainer.appendChild(projectItem)
