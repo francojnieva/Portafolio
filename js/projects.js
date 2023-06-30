@@ -1,17 +1,10 @@
 const projects = [
     {
-        img: "",
+        img: "../img/portafolio.png",
         alt:"Imagen de proyecto portafolio",
         title:"Portafolio",
         description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit rem repellendus nesciunt eos blanditiis quidem deserunt ducimus mollitia nihil expedita provident minus aliquid laborum saepe reprehenderit delectus doloremque, ea sint.",
-        repo:"",
-        deploy:"",
-        useTechnologies: {
-            html:"../img/html.svg",
-            css:"../img/css.svg",
-            bootstrap: "../img/bootstrap-icon.svg",
-            javascript:"../img/javascript_icon.svg"
-        }
+        repo:"https://github.com/francojnieva/Portafolio.git",
     },
     {
         img: "../img/tecnoStore.png",
@@ -19,13 +12,6 @@ const projects = [
         title:"E-commerce",
         description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit rem repellendus nesciunt eos blanditiis quidem deserunt ducimus mollitia nihil expedita provident minus aliquid laborum saepe reprehenderit delectus doloremque, ea sint.",
         repo:"https://github.com/francojnieva/RCS-TecnoStore.git",
-        deploy:"https://tecnostore-group2.netlify.app",
-        useTechnologies: {
-            html:"../img/html.svg",
-            css:"../img/css.svg",
-            bootstrap: "../img/bootstrap-icon.svg",
-            javascript:"../img/javascript_icon.svg"
-        }
     },
     {
         img: "img/educandoParaElFuturo.png",
@@ -33,12 +19,6 @@ const projects = [
         title:"Educando para el futuro",
         description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit rem repellendus nesciunt eos blanditiis quidem deserunt ducimus mollitia nihil expedita provident minus aliquid laborum saepe reprehenderit delectus doloremque, ea sint.",
         repo:"https://github.com/MigPalomares/RCS-Proyect-Education.git",
-        deploy:"https://rsc-proyect-education.netlify.app",
-        useTechnologies: {
-            html:"../img/html.svg",
-            css:"../img/css.svg",
-            bootstrap: "../img/bootstrap-icon.svg"
-        }
     }
 ]
 
@@ -53,8 +33,10 @@ projects.forEach((project) => {
         <div class="card-body">
             <h5 class="card-title text-start text-white-50">${project.title}:</h5>
             <p class="card-text text-start text-white-50">${project.description}.</p>
-            <a href="${project.repo}" target="_blank" class="btn me-1"><i class="bi bi-github"></i> Repositorio</a>
-            <a href="${project.deploy}" target="_blank" class="btn"> <i class="bi bi-person-workspace"></i> Ver Proyecto</a>
+            <div class="text-start">
+                <a href="${project.repo}" target="_blank" class="btn me-1"><i class="bi bi-github"></i> Repositorio</a>
+            </div>
+
         </div>
     `
     projectContainer.appendChild(projectItem)
