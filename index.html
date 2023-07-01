@@ -25,8 +25,8 @@
     <title>Portafolio - Franco Javier Nieva</title>
 </head>
 <body>
-    <header class="d-flex flex-column justify-content-md-center pt-3">
-        <nav class="navbar navbar-expand-lg mb-4 mb-lg-5">
+    <header class="d-flex flex-column justify-content-md-center pt-2">
+        <nav class="navbar navbar-expand-lg mb-1 mb-lg-5">
             <div class="container-fluid container-md">
                 <div class="container-fluid d-flex justify-content-between align-items-center ">
                     <a class="navbar-brand" href="./index.html"><img src="./img/foto-perfil.png" alt="Foto de perfil de Franco Nieva" title="Nieva Franco Javier" class="rounded-circle  nav-img"></a>
@@ -52,8 +52,8 @@
                 </div>
             </div>
         </nav>
-        <section class="presentation-container container-lg d-lg-flex justify-content-lg-evenly align-items-lg-center pt-5 mb-5">
-            <div class="presentation-info container-lg" data-aos="fade-right">
+        <section class="presentation-container container-lg d-lg-flex justify-content-lg-evenly align-items-lg-center pt-3 pt-lg-5 pb-lg-5">
+            <div class="presentation-info container-lg">
                 <h1 class="hello">¡Hola!</h1>
                 <h2 class="my-name-title">Soy Franco Javier Nieva</h2>
                 <p class="mb-0">Estudiante Universitario</p>
@@ -68,7 +68,7 @@
                     <a download href="" class="btn"><i class="bi bi-file-earmark-person"></i> Descargar CV</a>
                 </div>
             </div>
-            <div class="presentation-photo d-flex justify-content-center" data-aos="fade-left">
+            <div class="presentation-photo d-flex justify-content-center">
                 <img src="./img/foto-perfil.png" alt="Foto de perfil de Franco Nieva"
                 title="Nieva Franco Javier">
             </div>
@@ -81,29 +81,39 @@
             <p>Responsable, disciplinado, empático, me gusta trabajar en equipo y aprender de los demás. Aspiro a poder conseguir mi primer trabajo en el mundo IT que tanto me apasiona.</p>
         </section>
         <section class="text-center" id="technologies">
-            <h2 class="title-h2 fs-1 mt-5 mb-4">Conocimientos y Tecnologías</h2>
-            <article id="technologies-container" data-aos="fade-up" class="d-flex flex-wrap justify-content-evenly gap-3 mb-3"></article>
+            <h2 class="title-h2 fs-1 mt-4 mb-4">Conocimientos y Tecnologías</h2>
+            <article id="technologies-container" data-aos="fade-up" class="d-flex flex-wrap justify-content-evenly gap-3 pt-2 "></article>
         </section>
         <section class="text-center" id="project">
-            <h2 class="title-h2 fs-1 mt-5 mb-4">Proyectos</h2>
+            <h2 class="title-h2 fs-1 mt-4 mb-4">Proyectos</h2>
             <article id="project-container" class="p-2 d-lg-flex gap-lg-3 flex-lg-wrap justify-content-lg-around"></article>
         </section>
         <section class="text-center" id="contact">
-            <h2 class="title-h2 fs-1 mt-2 mb-4">Contacto</h2>
-            <!-- <form action="#" method="post">
-                <p>¿Quieres contactarme?. Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. Muchas gracias.</p>
-                <label for="name"></label>
-                <input type="text" name="name" id="name" placeholder="Nombre" required autocomplete="off">
-                <label for="email"></label>
-                <input type="email" name="email" id="email" placeholder="Dirección de correo electrónico" required autocomplete="off">
-                <label for=""></label>
-                <input type="text" name="" id="" placeholder="Asunto" required autocomplete="off">
-                <label for="message"></label>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Deja tu mensaje aquí..." required autocomplete="off"></textarea>
-                <div>
-                    <input type="submit" value="Enviar">
-                </div>
-            </form> -->
+            <h2 class="title-h2 fs-1 mb-3">Contacto</h2>
+            <p class="text-white-50 mb-3">Completa el siguiente formulario y me pondré en contacto lo antes posible. Muchas gracias.</p>
+            <div class="login-box p-3 rounded-5 mb-5 m-auto">
+                <form action="#" method="post">
+                    <div class="user-box">
+                        <input type="text" name="name" minlength="5" maxlength="30" id="name" required autocomplete="off">
+                        <label for="name">Nombre</label>
+                    </div>
+                    <div class="user-box">
+                        <input type="email" name="email" id="email" required autocomplete="off">
+                        <label for="email">Dirección de correo electrónico</label>
+                    </div>
+                    <div class="user-box">
+                        <input type="text" name="case" id="case" minlength="5" maxlength="30" required autocomplete="off">
+                        <label for="case">Asunto</label>
+                    </div>
+                    <div class="user-box">
+                        <textarea name="message" id="message" cols="30" rows="5" required autocomplete="off"></textarea>
+                        <label for="message">Deja tu mensaje aquí...</label>
+                    </div>
+                    <div>
+                        <input type="submit" class="btn" value="Enviar">
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
     <footer class="text-center p-3 text-white bg-gradient">

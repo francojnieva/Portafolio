@@ -114,7 +114,7 @@ h1, h2 {
     }
     
     .card-technologies img {
-        width: 6rem;
+        width: 5rem;
         margin: 0 auto;
     }
 }
@@ -159,6 +159,12 @@ h1, h2 {
     .card-project  {
         width: 22rem;
     }
+
+    /* CONTACTO */
+
+    .login-box {
+        width: 75%;
+    }
 }
 
 @media screen and (min-width: 1300px) {
@@ -173,4 +179,48 @@ h1, h2 {
     .presentation-photo img {
         width: 18rem;
     }
+}
+
+/* CONTACTO */
+
+.login-box .user-box {
+    position: relative;
+}
+  
+.login-box .user-box input, textarea {
+    width: 100%;
+    padding: .8rem 0;
+    color: #fff;
+    margin-bottom: 2rem;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: none;
+    resize: none;
+}
+  
+.login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+  
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #bdb8b8;
+    font-size: 12px;
+}
+
+.login-box .user-box textarea:focus ~ label,
+.login-box .user-box textarea:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #bdb8b8;
+    font-size: 12px;
 }
