@@ -22,20 +22,4 @@ function validarFormulario() {
         });
         return false;
     }
-  
-    // if (true) {
-    //     Swal.fire({
-    //         position: 'center',
-    //         icon: 'success',
-    //         title: 'Enviado!',
-    //         showConfirmButton: false,
-    //         timer: 1500
-    //     }).then(() => {
-    //         document.getElementById("name").value = ""
-    //         document.getElementById("email").value = ""
-    //         document.getElementById("case").value = ""
-    //         document.getElementById("message").value = ""
-    //     })
-    //     return false
-    // }
 }
