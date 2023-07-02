@@ -16,7 +16,7 @@ El portafolio se divide en las siguientes secciones:
 ## Enlaces
 Además de navegar por el portafolio, los usuarios pueden acceder a mis perfiles en las siguientes plataformas:
 
-- [LinkedIn](https://www.linkedin.com/francojnieva)
+- [LinkedIn](https://www.linkedin.com/in/francojnieva/)
 - [Instagram](https://www.instagram.com/franconieva.97)
 
 [Ver Portafolio](https://portafolio-francojnieva.netlify.app/) ✨
