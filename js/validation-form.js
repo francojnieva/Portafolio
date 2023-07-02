@@ -1,4 +1,4 @@
-function validarFormulario() {
+function validateForm() {
     const name = document.getElementById("name").value
     const email = document.getElementById("email").value
     const cases = document.getElementById("case").value

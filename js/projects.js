@@ -1,24 +1,31 @@
 const projects = [
     {
-        img: "../img/portafolio.png",
+        img: "../img/portafolio-.png",
         alt:"Imagen de proyecto portafolio",
         title:"Portafolio",
         description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit rem repellendus nesciunt eos blanditiis quidem deserunt ducimus mollitia nihil expedita provident minus aliquid laborum saepe reprehenderit delectus doloremque, ea sint.",
         repo:"https://github.com/francojnieva/Portafolio.git",
     },
     {
-        img: "../img/tecnoStore.png",
+        img: "../img/tecnoStore-.png",
         alt:"Imagen de proyecto e-commerce TecnoStore",
         title:"E-commerce",
         description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit rem repellendus nesciunt eos blanditiis quidem deserunt ducimus mollitia nihil expedita provident minus aliquid laborum saepe reprehenderit delectus doloremque, ea sint.",
         repo:"https://github.com/francojnieva/RCS-TecnoStore.git",
     },
     {
-        img: "img/educandoParaElFuturo.png",
+        img: "img/educandoParaElFuturo-.png",
         alt:"Imagen de proyecto Educando para el futuro",
         title:"Educando para el futuro",
         description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit rem repellendus nesciunt eos blanditiis quidem deserunt ducimus mollitia nihil expedita provident minus aliquid laborum saepe reprehenderit delectus doloremque, ea sint.",
         repo:"https://github.com/MigPalomares/RCS-Proyect-Education.git",
+    },
+    {
+        img: "../img/lista-de-tareas.png",
+        alt:"Imagen de proyecto e-commerce TecnoStore",
+        title:"Lista de Tareas",
+        description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit rem repellendus nesciunt eos blanditiis quidem deserunt ducimus mollitia nihil expedita provident minus aliquid laborum saepe reprehenderit delectus doloremque, ea sint.",
+        repo:"https://github.com/francojnieva/To-Do-List.git",
     }
 ]
 

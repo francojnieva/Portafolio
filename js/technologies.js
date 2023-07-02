@@ -32,11 +32,6 @@ const technologies = [
         text:"Git"
     },
     {
-        img: "../img/visualstudiocode-icon.svg",
-        alt: "Logo Visual Studio Code",
-        text:"Visual Studio Code"
-    },
-    {
         img: "../img/github-icon.svg",
         alt: "Logo GitHub",
         text:"GitHub"
@@ -46,6 +41,16 @@ const technologies = [
         alt: "Logo Trello",
         text:"Trello"
     },
+    {
+        img: "../img/scrum-icon.svg",
+        alt: "Logo Scrum",
+        text:"Scrum"
+    },
+    {
+        img: "../img/visualstudiocode-icon.svg",
+        alt: "Logo Visual Studio Code",
+        text:"Visual Studio Code"
+    }
 ]
 
 technologies.forEach((technologies) => {
