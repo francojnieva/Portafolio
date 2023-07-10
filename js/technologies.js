@@ -47,6 +47,11 @@ const technologies = [
         text:"Scrum"
     },
     {
+        img: "../img/slack-icon.svg",
+        alt: "Logo Slack",
+        text:"Slack"
+    },
+    {
         img: "../img/visualstudiocode-icon.svg",
         alt: "Logo Visual Studio Code",
         text:"Visual Studio Code"

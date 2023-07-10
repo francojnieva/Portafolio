@@ -45,10 +45,10 @@ h1, h2 {
 
 /* TECNOLOGÍAS */
 
-.card-technologies, .card-project {
+.card-technologies {
     background-color: #161616;
     border: none;
-    border: .1rem solid rgb(36, 36, 36);
+    border: .1rem solid rgb(71, 71, 71);
     transition: .3s;
 }
 
@@ -61,6 +61,12 @@ h1, h2 {
 }
 
 /* PROYECTOS */
+
+.card-project {
+    background-color: #161616;
+    border: none;
+    border: .1rem solid rgb(71, 71, 71);
+}
 
 .btn {
     color: white;
