@@ -21,6 +21,13 @@ const projects = [
         repo:"https://github.com/MigPalomares/RCS-Proyect-Education.git",
     },
     {
+        img: "../img/calculadorabasica.png",
+        alt:"Imagen de proyecto calculadora",
+        title:"Calculadora",
+        description:"Proyecto de una calculadora que realiza las operaciones básicas, como suma, resta, multiplicación, división y potenciación. La calculadora ha sido desarrollada utilizando HTML, CSS y JavaScript para brindar una experiencia funcional y visualmente agradable",
+        repo:"https://github.com/francojnieva/calculadora.git",
+    },
+    {
         img: "../img/lista-de-tareas.png",
         alt:"Imagen de proyecto e-commerce TecnoStore",
         title:"Lista de Tareas",
