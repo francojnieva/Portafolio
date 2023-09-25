@@ -1,5 +1,12 @@
 const projects = [
     {
+        img: "../img/ecommerce-motofly.png",
+        alt:"Imagen de proyecto Ecommerce - MotoFly",
+        title:"E-commerce",
+        description:"Proyecto desarrollado con el stack MERN (MongoDB, ExpressJS, ReactJS, NodeJS), Git para el sistema de control de versiones, Trello para gestionar las tareas y SCRUM para tener un marco de trabajo ágil. Llevado a cabo por un equipo de 5 integrantes durante el curso en Rolling Code School",
+        repo:"https://github.com/ErikaCV/proyecto-final.git",
+    },
+    {
         img: "../img/portafolio-.png",
         alt:"Imagen de proyecto portafolio",
         title:"Portafolio",
@@ -17,8 +24,15 @@ const projects = [
         img: "img/educandoParaElFuturo-.png",
         alt:"Imagen de proyecto Educando para el futuro",
         title:"Educando para el futuro",
-        description:"Es un sitio web estático desarrollado utilizando HTML, CSS y Bootstrap. Es un proyecto realizado por 4 integrantes en el curso de Rolling Code School. El objetivo principal fue maquetar y estilizar un sitio web, trabajando de manera colaborativa a través de GitHub y gestionando las tareas por medio de Trello.",
+        description:"Es un sitio web estático desarrollado utilizando HTML, CSS y Bootstrap. Es un proyecto realizado por 4 integrantes en el curso de Rolling Code School. El objetivo principal fue maquetar y estilizar un sitio web, trabajando de manera colaborativa a través de GitHub y gestionando las tareas por medio de Trello",
         repo:"https://github.com/MigPalomares/RCS-Proyect-Education.git",
+    },
+    {
+        img: "../img/app-clima.png",
+        alt:"Imagen del proyecto aplicación del clima",
+        title:"Aplicación del clima",
+        description:"Aplicación simple del clima que utiliza HTML, CSS, Bootstrap y JavaScript para obtener información climática a través de un pedido a la API de OpenWeatherMap. Muestra la temperatura actual, la sensación térmica, la temperatura máxima/mínima, y la humedad de las ciudades del mundo",
+        repo:"https://github.com/francojnieva/app-clima.git",
     },
     {
         img: "../img/calculadorabasica.png",
@@ -33,6 +47,13 @@ const projects = [
         title:"Lista de Tareas",
         description:"Es una página web creada con HTML, CSS, Bootstrap y JavaScript. Con un elegante diseño en tonos oscuros, esta lista de tareas ofrece una experiencia responsive y amigable para el usuario. Permite crear, marcar tareas completadas de manera sencilla y borrarlas",
         repo:"https://github.com/francojnieva/To-Do-List.git",
+    },
+    {
+        img: "../img/ta-te-ti.png",
+        alt:"Imagen del proyecto ta-te-tie",
+        title:"Juego del Ta-Te-Ti",
+        description:"Es una versión digital del popular juego de mesa. El objetivo del juego es simple: dos jugadores compiten para ser el primero en alinear tres de sus fichas en línea recta, ya sea horizontal, vertical o diagonal, en un tablero de 3x3. Desarrollado utilizando HTML, CSS y JavaScript",
+        repo:"https://github.com/francojnieva/ta-te-ti.git",
     }
 ]
 
@@ -45,7 +66,7 @@ projects.forEach((project) => {
     projectItem.innerHTML = `
         <img src="${project.img}" class="card-img-top" alt="${project.alt}">
         <div class="card-body">
-            <h5 class="card-title text-start text-white-50">${project.title}:</h5>
+            <h5 class="card-title text-start text-white">${project.title}:</h5>
             <p class="card-text text-start text-white-50">${project.description}.</p>
             <div class="text-start">
                 <a href="${project.repo}" target="_blank" class="btn me-1"><i class="bi bi-github"></i> Repositorio</a>

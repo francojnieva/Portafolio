@@ -13,7 +13,7 @@ function validateForm() {
         return false
     }
 
-    if (name.lenght <= 2 || name.lenght >= 20) {
+    if (name.lenght <= 2 || name.lenght > 20) {
         Swal.fire({
             icon: 'error',
             title: 'Oops...',
@@ -22,7 +22,7 @@ function validateForm() {
         return false
     }
 
-    if (cases.lenght <= 2 || cases.lenght >= 20) {
+    if (cases.lenght <= 2 || cases.lenght > 20) {
         Swal.fire({
             icon: 'error',
             title: 'Oops...',
@@ -36,7 +36,7 @@ function validateForm() {
         Swal.fire({
             icon: 'error',
             title: 'Oops...',
-            text: 'Por favor ingrese un correo válido!',   
+            text: 'Por favor, ingrese un correo válido',   
         });
         return false;
     }

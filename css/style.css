@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #111111;
+    background-color: #010409;
 }
 
 h1, h2 {
@@ -30,7 +30,7 @@ h1, h2 {
 }
 
 .presentation-info p, .about-me-container {
-    color: #808080;
+    color: #b9b9b9;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -46,9 +46,9 @@ h1, h2 {
 /* TECNOLOGÍAS */
 
 .card-technologies {
-    background-color: #161616;
+    background-color: #02050a;
     border: none;
-    border: .1rem solid rgb(71, 71, 71);
+    border: .1rem solid #17171d;
     transition: .3s;
 }
 
@@ -63,9 +63,9 @@ h1, h2 {
 /* PROYECTOS */
 
 .card-project {
-    background-color: #161616;
+    background-color: #0f0f0f;
     border: none;
-    border: .1rem solid rgb(71, 71, 71);
+    border: .1rem solid rgb(151, 151, 151);
 }
 
 .btn {
@@ -188,6 +188,12 @@ h1, h2 {
 }
 
 /* CONTACTO */
+
+.login-box {
+    background: linear-gradient(#010409, #010409) padding-box,
+    linear-gradient(137deg, transparent 35%,#fc4a1a, #f7b733) border-box;
+    border: .18rem solid transparent;
+}
 
 .login-box .user-box {
     position: relative;
